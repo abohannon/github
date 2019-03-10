@@ -13,6 +13,7 @@
   ],
   "readmeFilename": "README.md",
   "scripts": {
+    "prepare": "npm run build",
     "clean": "gulp clean",
     "build": "gulp build",
     "test": "mocha --opts ./mocha.opts test/*.spec.js",
